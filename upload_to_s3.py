@@ -100,9 +100,9 @@ def process_and_upload_files(s3_client, source_bucket, source_folder, target_fol
 
 def main():
     # Define your bucket and folders
-    source_bucket = 'mai-support-test'
-    source_folder = 'processed_data_99kfiles/'
-    target_folder = 'pii99'
+    source_bucket = 'insert_bucket_name_here'
+    source_folder = 'insert_folder_name_here'
+    target_folder = 'insert_folder_name_here'
 
     # Initialize S3 client
     s3_client = boto3.client('s3')
